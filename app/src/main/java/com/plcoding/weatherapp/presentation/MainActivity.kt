@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
             Manifest.permission.ACCESS_COARSE_LOCATION,
         ))
         setContent {
+
             WeatherAppTheme {
                 Box(
                     modifier = Modifier.fillMaxSize()
